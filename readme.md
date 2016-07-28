@@ -114,6 +114,8 @@ $ php artisan vendor:publish
 $ php artisan make:auth
 ```
 
+**Note**: If you run this command it is important for all your neccessary links above to put in `<yourproject>/resources/views/layouts/app.blade.php`.
+
 1. Configure your `.env` file and run `php artisan migrate`.
 2. Open your project in your favorite editor and go to `<yourproject>/resources/views/auth`, open `login.blade.php` and replace it with [login.blade.php](https://github.com/alexela8882/laravel-bootstrap-md/tree/master/resources/views/auth/login.blade.php)
 3. Open `register.blade.php` and replace with [register.blade.php](https://github.com/alexela8882/laravel-bootstrap-md/tree/master/resources/views/auth/register.blade.php)
