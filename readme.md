@@ -15,7 +15,9 @@ $ composer create-project laravel/laravel laravel-bootstrap-md "5.2.*" --prefer-
 ```sh
 $ laravel new laravel-bootstrap-md
 ```
-### Bower (`cd` into the public folder in your project's root directory)
+### Bower
+
+`cd` into the public folder in your project's root directory
 ```sh
 $ bower install bootstrap-material-design
 ```
@@ -61,19 +63,26 @@ After all dependencies were already installed, don't forget to generate your key
 $ php artisan key:generate
 ```
 
+Cloning or downloading this project will not provide with `.env` file, so you must run this command to make your `.env` file:
+
+```sh
+$ php -r "copy('.env.example', '.env');"
+```
+
 **All Done!**
 
 ## Toastr [optional]
 
 I also find it awesome if I include [Toastr](https://packagist.org/packages/oriceon/toastr-5-laravel) in this project.
 
-### Bower (see [toastr.js](https://github.com/CodeSeven/toastr))
+### Bower
 
 `cd` into public folder of your project and run:
 
 ```sh
 $ bower install toastr
 ```
+see [toastr.js](https://github.com/CodeSeven/toastr)
 
 And add this necessary links after your `<head>` element:
 
