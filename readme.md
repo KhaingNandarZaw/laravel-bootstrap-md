@@ -5,7 +5,7 @@ Bootstrap Material Design is a project done by [FezVrasta](http://fezvrasta.gith
 
 ### Download the zip
 
-Grab the latest stable [zip archive](https://github.com/FezVrasta/material-design-icons-svg/archive/master.zip) of this project.
+Grab the latest stable [zip archive](https://github.com/FezVrasta/material-design-icons-svg/archive/master.zip) of this project. Then skip all steps and proceed to Post Install.
 
 ### Composer
 ```sh
