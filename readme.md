@@ -38,8 +38,8 @@ And before your `</body>` element for scripts:
     <script type="text/javascript" src="{{ URL::asset('bower_components/jquery/dist/jquery.min.js') }}"></script>
     <script type="text/javascript" src="{{ URL::asset('bower_components/bootstrap/dist/js/bootstrap.min.js') }}"></script>
     <script type="text/javascript" src="{{ URL::asset('bower_components/bootstrap-material-design/dist/js/material.min.js') }}"></script>
-  <script type="text/javascript" src="{{ URL::asset('bower_components/bootstrap-material-design/dist/js/ripples.min.js') }}"></script>
-  <script type="text/javascript" src="{{ URL::asset('bower_components/bootstrap-material-design/dist/js/snackbar.min.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('bower_components/bootstrap-material-design/dist/js/ripples.min.js') }}"></script>
+    <script type="text/javascript" src="{{ URL::asset('bower_components/bootstrap-material-design/dist/js/snackbar.min.js') }}"></script>
     <!-- IMPORTANT -->
         <script>
           $.material.init();
@@ -61,12 +61,6 @@ After all dependencies were already installed, don't forget to generate your key
 
 ```sh
 $ php artisan key:generate
-```
-
-Cloning or downloading this project will not provide with `.env` file, so you must run this command to make your `.env` file:
-
-```sh
-$ php -r "copy('.env.example', '.env');"
 ```
 
 **All Done!**
@@ -116,7 +110,12 @@ $ php artisan make:auth
 
 **Note**: If you run this command it is important for all your neccessary links above to put in `<yourproject>/resources/views/layouts/app.blade.php`.
 
-1. Configure your `.env` file and run `php artisan migrate`.
+1. Configure your `.env` file and run `php artisan migrate`. Cloning or downloading this project will not provide with `.env` file, so you must run this command to make your `.env` file:
+
+```sh
+$ php -r "copy('.env.example', '.env');"
+```
+
 2. Open your project in your favorite editor and go to `<yourproject>/resources/views/auth`, open `login.blade.php` and replace it with [login.blade.php](https://github.com/alexela8882/laravel-bootstrap-md/tree/master/resources/views/auth/login.blade.php)
 3. Open `register.blade.php` and replace with [register.blade.php](https://github.com/alexela8882/laravel-bootstrap-md/tree/master/resources/views/auth/register.blade.php)
 
