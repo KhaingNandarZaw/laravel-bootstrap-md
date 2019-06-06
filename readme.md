@@ -29,8 +29,7 @@ Add the necessary links to your `<head>` element for fonts and stylsheets:
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('bower_components/bootstrap-material-design/dist/css/material-icons.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('bower_components/bootstrap-material-design/dist/css/bootstrap-material-design.min.css') }}">
     <link rel="stylesheet" type="text/css" href="{{ URL::asset('bower_components/bootstrap-material-design/dist/css/ripples.min.css') }}">
-    <!-- End of Bootstrap Material -->
-```
+
 And before your `</body>` element for scripts:
 
 ```html
